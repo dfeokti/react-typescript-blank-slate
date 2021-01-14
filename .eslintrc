@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    // working with new packages sometimes does not have the current types... or maybe ts is just being a pest.
+    "@typescript-eslint/ban-ts-comment": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

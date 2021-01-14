@@ -1,0 +1,58 @@
+{
+  "name": "react-typescript-blank-slate",
+  "version": "1.0.0",
+  "description": "Blank slate for a react typescript project",
+  "main": "index.tsx",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/html-webpack-plugin": "^3.2.6",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.1.0",
+    "@types/webpack-env": "^1.16.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^13.0.2",
+    "style-loader": "^3.3.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "@babel/runtime-corejs3": "^7.15.4",
+    "core-js": "^3.18.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.ts",
+    "build": "webpack --config webpack.prod.ts",
+    "prod": "webpack --config webpack.prod.ts && http-server dist -o -p 8081 -a 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfeokti/react-typescript-blank-slate.git"
+  },
+  "author": "dfeokti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfeokti/react-typescript-blank-slate/issues"
+  },
+  "homepage": "https://github.com/dfeokti/react-typescript-blank-slate#readme",
+  "browserslist": [
+    "defaults"
+  ]
+}

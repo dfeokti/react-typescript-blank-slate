@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Glass';
+  src: url('../../public/fonts/glass-antiqua.woff2');
+  font-style: normal;
+}
+
+p {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  margin-bottom: 5vh;
+  font-size: 3rem;
+  font-family: 'Glass';
+}
