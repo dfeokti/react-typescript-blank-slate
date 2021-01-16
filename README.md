@@ -6,7 +6,7 @@
 
 ## `npm start`
 
-Run the project locally, will open the browser.
+Run the project locally, will open the browser (port 8080).
 
 ## `npm run build`
 
@@ -14,7 +14,7 @@ Build the project, will output to **dist** directory.
 
 ## `npm run prod`
 
-Build the project, then run the prod version locally.
+Build the project, then serve the prod version locally (port 8081).
 
 ---
 
